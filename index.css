@@ -1,0 +1,81 @@
+/* typografy */
+
+body{
+    margin:0;
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+    background-image: url("images/oxford-door.jpg");
+    background-size: 100vw;
+    background-repeat:initial;
+    color: #0F0C07;
+}
+
+h3,
+h4{
+    text-shadow: 0 0 5px white;
+}
+
+p{
+    font-size: 30px;
+}
+
+span{
+    font-style: italic;
+    border-bottom: 3px ridge #BDA697;
+    border-top: 3px ridge #BDA697;
+}
+
+span:hover{
+    color: #BDA697;
+    border-bottom: 3px ridge #0F0C07;
+    border-top: 3px ridge #0F0C07;
+    text-shadow: none;
+}
+
+span:active{
+    color: #0F0C07;
+    border-bottom: 5px ridge #BDA697;
+    border-top: 5px ridge #BDA697;
+    text-shadow: 0 0 5px white;
+}
+
+/* layout */
+
+.container,
+.passwords-wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px
+}
+
+.passwords-wrapper{
+    justify-content: space-between;
+}
+
+.password-1,
+.password-2{
+    background-color: #0F0C07;
+    color: #D5CCC5;
+    text-shadow: 0 0 2px #BDA697
+}
+
+.password-1:active,
+.password-2:active{
+    font-size: 25px;
+    background-color: #D5CCC5;
+    color: #0F0C07;
+}
+
+.password-1:hover,
+.password-2:hover{
+    font-size: 32px;
+    background-color: #D5CCC5;
+    color: #0F0C07;
+    text-shadow: 0 0 2px #292624;
+}
